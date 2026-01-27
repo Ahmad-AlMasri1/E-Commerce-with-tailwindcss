@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@plugin "daisyui";
+
+@theme {
+    /*Colors*/
+        --color-adBackground: #F3F5F7;
+        --color-adBorder: #377DFF;
+    /*Fonts*/
+        --font-Inter:"Inter", sans-serif;
+}
+
+@utility row {
+    @apply flex flex-row items-center gap-2;
+}
+
+@utility col {
+    @apply flex flex-col items-center gap-2;
+}
+
+@layer base {
+    a   {
+        cursor: pointer;
+    }
+}
