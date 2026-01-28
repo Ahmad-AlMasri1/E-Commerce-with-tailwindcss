@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-   <section class="Ads py-2 bg-adBackground row">
+   <section class="Ads py-2 bg-adBackground row px-1">
         <div class="container mx-auto justify-center row ">
             <img src="./assets/image/icons/ticket-percent.svg"/>
             <p class="font-Inter text-[14px]/[22px] font-semibold ">30% off storewide — Limited time!</p>
@@ -20,8 +20,8 @@
             <a href="#"><img src="./assets/image/icons/close.svg"/></a>
         </div>
    </section>
-   <header class="sticky">
-        <div class="container mx-auto navbar bg-base-100">
+   <header class="sticky top-0 bg-white z-100">
+        <div class="container mx-auto navbar bg-base-100 px-1">
             <div class="navbar-start gap-3">
                 <div class="drawer w-8 mb-1.5 sm:hidden">
                     <input id="my-drawer-1" type="checkbox" class="drawer-toggle" />
@@ -96,27 +96,128 @@
             </div>
         </div>
    </header>
-   
+    <main>
         <!--Hero Section-->
-        <section style="background-image:url('./assets/image/heroimage.png');" class="h-[calc(100vh-105px)] bg-no-repeat max-w-full bg-cover max-md:hidden">
+
+        <section style="background-image:url('./assets/image/heroimage.png');" class="h-[calc(100vh-105px)] bg-no-repeat max-w-full bg-cover max-lg:hidden px-1 w-1/1">
             <div class="grid grid-cols-2 h-full w-1/2 mx-auto">
                 <div class="col justify-center items-start">
-                    <p class="text-[72px]/[80px] font-Poppins font-medium text-white" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 16.06%, #FFF 86.9%, rgba(255, 255, 255, 0.00) 106.25%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">More than<br/>just a game.<br/>It’s a lifestyle.</p>
+                    <h1 class="text-[72px]/[80px] font-Poppins font-medium text-white" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 16.06%, #FFF 86.9%, rgba(255, 255, 255, 0.00) 106.25%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">More than<br/>just a game.<br/>It’s a lifestyle.</h1>
                     <p class="text-[20px]/[32px] font-normal font-Inter text-white">Whether you’re just starting out, have played <br/>your whole life or you're a Tour pro, your <br/>swing is like a fingerprint.</p>
                     <button class="btn btn-success text-black text-[18px]/[32px] font-medium font-Inter text-center py-7 px-14 mt-7">Shopping Now</button>
                 </div>
             </div>
         </section>
-        <section style="background-image:url('./assets/image/mheroimage.png');" class="h-[calc(100vh-105px)] bg-no-repeat max-w-full bg-cover md:hidden">
+        <section style="background-image:url('./assets/image/mheroimage.png');" class="h-[calc(100vh-105px)] bg-no-repeat max-w-full bg-cover lg:hidden px-1 w-1/1">
             <div class="flex h-full">
-                <div class="col justify-center items-start mx-auto mt-auto mb-4">
-                    <p class="text-[40px]/[44px] font-Poppins font-medium text-white" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 16.06%, #FFF 86.9%, rgba(255, 255, 255, 0.00) 106.25%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">More than<br/>just a game.<br/>It’s a lifestyle.</p>
-                    <p class="text-[16px]/[26px] font-normal font-Inter text-white">Whether you’re just starting out, have played <br/>your whole life or you're a Tour pro, your <br/>swing is like a fingerprint.</p>
+                <div class="col justify-center items-start mx-auto mt-auto mb-4 md:mb-8">
+                    <h1 class="text-[40px]/[44px] font-Poppins font-medium text-white md:text-[55px]/[59px]" style="background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 16.06%, #FFF 86.9%, rgba(255, 255, 255, 0.00) 106.25%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">More than<br/>just a game.<br/>It’s a lifestyle.</h1>
+                    <p class="text-[16px]/[26px] font-normal font-Inter text-white md:text-[31px]/[41px]">Whether you’re just starting out, have played <br/>your whole life or you're a Tour pro, your <br/>swing is like a fingerprint.</p>
                     <button class="btn btn-success text-black text-[18px]/[32px] font-medium font-Inter text-center py-7 px-14 mt-4">Shopping Now</button>
                 </div>
             </div>
         </section>
-        
+
+        <!--Featured Section-->
+        <section>
+            <div class="container mx-auto py-12 overflow-hidden px-2">
+                <div class="row justify-between">
+                <h2 class="text-black font-Poppins font-medium text-[40px]/[44px]">Featured</h2>    
+                <div>       
+                <input type="radio" name="radio-1" class="radio not-checked:size-2" checked="checked" />
+                <input type="radio" name="radio-1" class="radio not-checked:size-2" />
+                <input type="radio" name="radio-1" class="radio not-checked:size-2" />
+                </div>
+                </div>
+                <div class="items mt-12 gap-6 inline-flex">
+                    <div class="card bg-base-100 w-65.5 shadow-sm group/item1 cursor-pointer transition-all">
+                    <figure class="relative">
+                        <img class="w-full" src="./assets/image/Featured/Glove1.png" alt="Glove1" />
+                        <div class="badge badge-md absolute top-4 left-4 font-Inter text-[16px]/[16px] font-bold">HOT</div>
+                        <button class="btn btn-neutral text-[16px]/[28px] font-medium font-Inter px-15 py-5 absolute bottom-4 hidden group-hover/item1:flex  text-center items-center hover:bg-black/90 active:scale-90 transition-all">Add to cart</button>
+                    </figure>
+                    <div class="card-body col items-start ">
+                        <img src="./assets/image/Featured/Rating Group.svg" alt="Rate"/>
+                        <h3 class="card-title font-Inter text-[16px]/[26px] font-semibold">
+                            Shark - Men's cabretta white golf glove 
+                        </h3>
+                        <span class="text-[14px]/[22px] font-semibold font-Inter">$19.00</span>
+                    </div>
+                    </div>
+
+                    <div class="card bg-base-100 w-65.5 shadow-sm group/item2 cursor-pointer transition-all">
+                    <figure class="relative">
+                        <img class="w-full" src="./assets/image/Featured/T-Shert.png" alt="T-Shert" />
+                        <div class="badge badge-md absolute top-4 left-4 font-Inter text-[16px]/[16px] font-bold">HOT</div>
+                        <div class="badge badge-success absolute text-white top-12 left-4 font-Inter text-[16px]/[16px] font-bold">-50%</div>
+                        <button class="btn btn-neutral text-[16px]/[28px] font-medium font-Inter px-15 py-5 absolute bottom-4 hidden group-hover/item2:flex  text-center items-center hover:bg-black/90 active:scale-90 transition-all">Add to cart</button>
+                    </figure>
+                    <div class="card-body col items-start ">
+                        <img src="./assets/image/Featured/Rating Group.svg" alt="Rate"/>
+                        <h3 class="card-title font-Inter text-[16px]/[26px] font-semibold">
+                            Greg Norman - Men's Shark Logo Golf Polo Shirt
+                        </h3>
+                        <div class="flex gap-3">
+                            <span class="text-[14px]/[22px] font-semibold font-Inter">$24.99</span>
+                            <span class="text-[#6C7275] text-[14px]/[22px] font-normal font-Inter line-through">$40.00</span>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                    <div class="card bg-base-100 w-65.5 shadow-sm group/item3 cursor-pointer transition-all">
+                    <figure class="relative">
+                        <img class="w-full" src="./assets/image/Featured/Glove2.png" alt="Glove2" />
+                        <div class="badge badge-md absolute top-4 left-4 font-Inter text-[16px]/[16px] font-bold">HOT</div>
+                        <button class="btn btn-neutral text-[16px]/[28px] font-medium font-Inter px-15 py-5 absolute bottom-4 hidden group-hover/item3:flex  text-center items-center hover:bg-black/90 active:scale-90 transition-all">Add to cart</button>
+                    </figure>
+                    <div class="card-body col items-start ">
+                        <img src="./assets/image/Featured/Rating Group.svg" alt="Rate"/>
+                        <h3 class="card-title font-Inter text-[16px]/[26px] font-semibold">
+                            G/FORE - Mens Left Glove Snow 2023
+                        </h3>
+                        <span class="text-[14px]/[22px] font-semibold font-Inter">$30.00</span>
+                    </div>
+                    </div>
+
+                    <div class="card bg-base-100 w-65.5 shadow-sm group/item4 cursor-pointer transition-all">
+                    <figure class="relative">
+                        <img class="w-full" src="./assets/image/Featured/Bag.png" alt="Bag" />
+                        <div class="badge badge-md absolute top-4 left-4 font-Inter text-[16px]/[16px] font-bold">HOT</div>
+                        <button class="btn btn-neutral text-[16px]/[28px] font-medium font-Inter px-15 py-5 absolute bottom-4 hidden group-hover/item4:flex  text-center items-center hover:bg-black/90 active:scale-90 transition-all ">Add to cart</button>
+                    </figure>
+                    <div class="card-body col items-start ">
+                        <img src="./assets/image/Featured/Rating Group.svg" alt="Rate"/>
+                        <h3 class="card-title font-Inter text-[16px]/[26px] font-semibold">
+                            Utility Rover-R Double Strap Bag All Black - 2023 
+                        </h3>
+                        <span class="text-[14px]/[22px] font-semibold font-Inter">$209.99</span>
+                    </div>
+                    </div>
+
+                    <div class="card bg-base-100 w-65.5 shadow-sm group/item5 cursor-pointer transition-all">
+                    <figure class="relative">
+                        <img class="w-full" src="./assets/image/Featured/Shoe.png" alt="Shoe" />
+                        <div class="badge badge-md absolute top-4 left-4 font-Inter text-[16px]/[16px] font-bold">HOT</div>
+                        <div class="badge badge-success absolute text-white top-12 left-4 font-Inter text-[16px]/[16px] font-bold">-50%</div>
+                        <button class="btn btn-neutral text-[16px]/[28px] font-medium font-Inter px-15 py-5 absolute bottom-4 hidden group-hover/item5:flex  text-center items-center hover:bg-black/90 active:scale-90 transition-all">Add to cart</button>
+                    </figure>
+                    <div class="card-body col items-start ">
+                        <img src="./assets/image/Featured/Rating Group.svg" alt="Rate"/>
+                        <h3 class="card-title font-Inter text-[16px]/[26px] font-semibold">
+                            Air Jordan 1 Low G Black/Black/Iron Grey - SS23 
+                        </h3>
+                        <div class="flex gap-3">
+                            <span class="text-[14px]/[22px] font-semibold font-Inter">$111.99</span>
+                            <span class="text-[#6C7275] text-[14px]/[22px] font-normal font-Inter line-through">$200.00</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
    
 </body>
 </html>
