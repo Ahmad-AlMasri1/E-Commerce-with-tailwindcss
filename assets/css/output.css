@@ -1496,6 +1496,9 @@
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
+  .mb-6 {
+    margin-bottom: calc(var(--spacing) * 6);
+  }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
   }
@@ -1705,6 +1708,9 @@
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   .grid-rows-2 {
     grid-template-rows: repeat(2, minmax(0, 1fr));
   }
@@ -1885,6 +1891,9 @@
   .text-justify {
     text-align: justify;
   }
+  .text-start {
+    text-align: start;
+  }
   .align-text-bottom {
     vertical-align: text-bottom;
   }
@@ -1965,6 +1974,9 @@
       --size: calc(var(--size-selector, 0.25rem) * 6);
       font-size: 0.875rem;
     }
+  }
+  .text-\[20px\] {
+    font-size: 20px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
