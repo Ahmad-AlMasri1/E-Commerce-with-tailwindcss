@@ -2501,6 +2501,11 @@
       padding-right: calc(var(--spacing) * 10);
     }
   }
+  .max-xl\:hidden {
+    @media (width < 80rem) {
+      display: none;
+    }
+  }
   .max-xl\:h-15 {
     @media (width < 80rem) {
       height: calc(var(--spacing) * 15);
@@ -2516,9 +2521,111 @@
       background-color: #141718;
     }
   }
+  .max-xl\:bg-\[url\(\.\.\/image\/heroimage\.png\)\] {
+    @media (width < 80rem) {
+      background-image: url(../image/heroimage.png);
+    }
+  }
+  .max-xl\:bg-\[url\(\.\.\/image\/mheroimage\.png\)\] {
+    @media (width < 80rem) {
+      background-image: url(../image/mheroimage.png);
+    }
+  }
+  .max-xl\:text-\[12px\]\/\[27px\] {
+    @media (width < 80rem) {
+      font-size: 12px;
+      line-height: 27px;
+    }
+  }
+  .max-xl\:text-\[13px\]\/\[27px\] {
+    @media (width < 80rem) {
+      font-size: 13px;
+      line-height: 27px;
+    }
+  }
+  .max-xl\:text-\[15px\]\/\[27\] {
+    @media (width < 80rem) {
+      font-size: 15px;
+      line-height: 27;
+    }
+  }
+  .max-xl\:text-\[15px\]\/\[27px\] {
+    @media (width < 80rem) {
+      font-size: 15px;
+      line-height: 27px;
+    }
+  }
+  .max-xl\:text-\[62px\]\/\[70px\] {
+    @media (width < 80rem) {
+      font-size: 62px;
+      line-height: 70px;
+    }
+  }
+  .max-xl\:text-\[67px\]\/\[75px\] {
+    @media (width < 80rem) {
+      font-size: 67px;
+      line-height: 75px;
+    }
+  }
+  .max-xl\:text-\[15px\] {
+    @media (width < 80rem) {
+      font-size: 15px;
+    }
+  }
+  .max-xl\:text-\[67px\] {
+    @media (width < 80rem) {
+      font-size: 67px;
+    }
+  }
+  .max-xl\:font-normal {
+    @media (width < 80rem) {
+      --tw-font-weight: var(--font-weight-normal);
+      font-weight: var(--font-weight-normal);
+    }
+  }
+  .max-lg\:mb-20 {
+    @media (width < 64rem) {
+      margin-bottom: calc(var(--spacing) * 20);
+    }
+  }
   .max-lg\:hidden {
     @media (width < 64rem) {
       display: none;
+    }
+  }
+  .max-lg\:items-end-safe {
+    @media (width < 64rem) {
+      align-items: safe flex-end;
+    }
+  }
+  .max-lg\:justify-end {
+    @media (width < 64rem) {
+      justify-content: flex-end;
+    }
+  }
+  .max-lg\:justify-end-safe {
+    @media (width < 64rem) {
+      justify-content: safe flex-end;
+    }
+  }
+  .max-lg\:bg-\[url\(\.\.\/image\/mheroimage\.png\)\] {
+    @media (width < 64rem) {
+      background-image: url(../image/mheroimage.png);
+    }
+  }
+  .max-lg\:px-12 {
+    @media (width < 64rem) {
+      padding-inline: calc(var(--spacing) * 12);
+    }
+  }
+  .max-lg\:py-5 {
+    @media (width < 64rem) {
+      padding-block: calc(var(--spacing) * 5);
+    }
+  }
+  .max-lg\:py-6 {
+    @media (width < 64rem) {
+      padding-block: calc(var(--spacing) * 6);
     }
   }
   .max-lg\:pe-7 {
@@ -2526,10 +2633,77 @@
       padding-inline-end: calc(var(--spacing) * 7);
     }
   }
+  .max-lg\:pb-7 {
+    @media (width < 64rem) {
+      padding-bottom: calc(var(--spacing) * 7);
+    }
+  }
+  .max-lg\:pb-18 {
+    @media (width < 64rem) {
+      padding-bottom: calc(var(--spacing) * 18);
+    }
+  }
+  .max-lg\:pb-20 {
+    @media (width < 64rem) {
+      padding-bottom: calc(var(--spacing) * 20);
+    }
+  }
+  .max-lg\:font-Poppins {
+    @media (width < 64rem) {
+      font-family: var(--font-Poppins);
+    }
+  }
   .max-lg\:text-3xl {
     @media (width < 64rem) {
       font-size: var(--text-3xl);
       line-height: var(--tw-leading, var(--text-3xl--line-height));
+    }
+  }
+  .max-lg\:text-\[8px\]\/\[22px\] {
+    @media (width < 64rem) {
+      font-size: 8px;
+      line-height: 22px;
+    }
+  }
+  .max-lg\:text-\[10px\]\/\[22px\] {
+    @media (width < 64rem) {
+      font-size: 10px;
+      line-height: 22px;
+    }
+  }
+  .max-lg\:text-\[10px\]\/\[32px\] {
+    @media (width < 64rem) {
+      font-size: 10px;
+      line-height: 32px;
+    }
+  }
+  .max-lg\:text-\[13px\]\/\[27px\] {
+    @media (width < 64rem) {
+      font-size: 13px;
+      line-height: 27px;
+    }
+  }
+  .max-lg\:text-\[13px\]\/\[32px\] {
+    @media (width < 64rem) {
+      font-size: 13px;
+      line-height: 32px;
+    }
+  }
+  .max-lg\:text-\[18px\]\/\[32px\] {
+    @media (width < 64rem) {
+      font-size: 18px;
+      line-height: 32px;
+    }
+  }
+  .max-lg\:text-\[62px\]\/\[70px\] {
+    @media (width < 64rem) {
+      font-size: 62px;
+      line-height: 70px;
+    }
+  }
+  .max-lg\:text-\[62px\] {
+    @media (width < 64rem) {
+      font-size: 62px;
     }
   }
   .max-md\:order-1 {
@@ -2616,15 +2790,66 @@
       padding-bottom: calc(var(--spacing) * 10);
     }
   }
+  .max-md\:font-Poppins {
+    @media (width < 48rem) {
+      font-family: var(--font-Poppins);
+    }
+  }
+  .max-md\:text-\[10px\]\/\[22px\] {
+    @media (width < 48rem) {
+      font-size: 10px;
+      line-height: 22px;
+    }
+  }
+  .max-md\:text-\[10px\]\/\[32px\] {
+    @media (width < 48rem) {
+      font-size: 10px;
+      line-height: 32px;
+    }
+  }
+  .max-md\:text-\[20px\]\/\[32px\] {
+    @media (width < 48rem) {
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+  .max-md\:text-\[62px\]\/\[70px\] {
+    @media (width < 48rem) {
+      font-size: 62px;
+      line-height: 70px;
+    }
+  }
+  .max-md\:text-\[62px\]\/\[80px\] {
+    @media (width < 48rem) {
+      font-size: 62px;
+      line-height: 80px;
+    }
+  }
+  .max-md\:text-\[72px\]\/\[80px\] {
+    @media (width < 48rem) {
+      font-size: 72px;
+      line-height: 80px;
+    }
+  }
   .max-md\:text-xl {
     @media (width < 48rem) {
       font-size: var(--text-xl);
       line-height: var(--tw-leading, var(--text-xl--line-height));
     }
   }
+  .max-md\:text-wrap {
+    @media (width < 48rem) {
+      text-wrap: wrap;
+    }
+  }
   .max-sm\:hidden {
     @media (width < 40rem) {
       display: none;
+    }
+  }
+  .max-sm\:text-wrap {
+    @media (width < 40rem) {
+      text-wrap: wrap;
     }
   }
   .sm\:hidden {
@@ -2688,6 +2913,16 @@
       display: none;
     }
   }
+  .lg\:bg-\[url\(\.\.\/image\/heroimage\.png\)\] {
+    @media (width >= 64rem) {
+      background-image: url(../image/heroimage.png);
+    }
+  }
+  .xl\:hidden {
+    @media (width >= 80rem) {
+      display: none;
+    }
+  }
   .xl\:h-13 {
     @media (width >= 80rem) {
       height: calc(var(--spacing) * 13);
@@ -2701,6 +2936,11 @@
   .xl\:grid-cols-6 {
     @media (width >= 80rem) {
       grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
+  .xl\:bg-\[url\(\.\.\/image\/heroimage\.png\)\] {
+    @media (width >= 80rem) {
+      background-image: url(../image/heroimage.png);
     }
   }
   .xl\:bg-\[url\(\.\.\/image\/joinUsbg\.png\)\] {
