@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,91 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+       <section class="Ads py-2 bg-white row px-1">
+        <div class="container mx-auto justify-center row ">
+            <img src="./assets/image/icons/ticket-percent.svg"/>
+            <p class="font-Inter text-[14px]/[22px] font-semibold ">30% off storewide — Limited time!</p>
+            <a href="#" class="font-Inter text-[14px]/[24px] font-medium text-[#377DFF] border-b border-b-[#377DFF] max-[480px]:hidden">Shop Now <i class="fa-solid fa-arrow-right text-xs text-[#377DFF]"></i></a>
+        </div>
+        <div class="close pr-1 max-[480px]:pr-10">
+            <a href="#"><img src="./assets/image/icons/close.svg"/></a>
+        </div>
+   </section>
+   <header class="sticky top-0 bg-white z-100">
+        <div class="container mx-auto navbar bg-base-100 px-1">
+            <div class="navbar-start gap-3">
+                <div class="drawer w-8 mb-1.5 sm:hidden">
+                    <input id="my-drawer-1" type="checkbox" class="drawer-toggle" />
+                    <div class="drawer-content">
+                        <!-- Page content here -->
+                        <label for="my-drawer-1" class="btn btn-ghost btn-circle drawer-button"><img class="size-10" src="./assets/image/icons/header/menu-line-horizontal.svg"/></label>
+                    </div>
+                    <div class="drawer-side">
+                        <label for="my-drawer-1" aria-label="close sidebar" class="drawer-overlay"></label>
+                        <!-- Sidebar content here -->
+                        <div class="menu bg-base-200 min-h-full w-80 p-6">
+                            <div class="up mb-auto">
+                            <div class="row justify-between">
+                                <a href="index.html" class="btn btn-ghost text-xl"><img class="w-20" src="./assets/image/logo.svg"/></a>
+                                <label for="my-drawer-1" aria-label="close sidebar" class="drawer-overlay btn btn-ghost"><img class="w-7"  src="./assets/image/icons/close.svg"/></label>
+                            </div>
+                            <div class="search p-4">
+                                <label class="input">
+                                    <button class="btn btn-ghost btn-circle">
+                                        <a href="#"><img src="./assets/image/icons/header/search 02.svg"/></a>
+                                    </button>
+                                    <input type="search" required placeholder="Search" class="font-Inter text-[14px]/[22px] font-normal"/>
+                                </label>
+                            </div>  
+                            <ul>
+                                <li><a href="index.html" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">Home</a></li>
+                                <li><a href="shop.html" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">Shop</a></li>
+                                <li><a href="#" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">Product</a></li>
+                                <li><a href="#" class="font-Inter text-[14px]/[24px] font-medium pb-2 border-b-2 border-b-[#E8ECEF]">Contact Us</a></li>
+                            </ul>
+                            </div>
+                            <div class="bot">
+                                <ul>
+                                <li class="border-b border-b-[#E8ECEF]">
+                                    <a href="#" class="row"><p class="font-Inter text-[18px]/[32px] font-medium text-[#6C7275] me-auto">Cart</p><p><img src="./assets/image/icons/header/shopping bag.svg"/><p class="rounded-full bg-black text-white w-6 h-6 text-center">2</p></p></a>
+                                </li>
+                                <li class="border-b border-b-[#E8ECEF]">
+                                    <a href="#" class="row"><p class="font-Inter text-[18px]/[32px] font-medium text-[#6C7275] me-auto">Wishlist</p><p><img src="./assets/image/icons/header/heart.svg"/><p class="rounded-full bg-black text-white w-6 h-6 text-center">2</p></p></a>
+                                </li>
+                                </ul>
+                                <button class="btn btn-neutral font-Inter text-[18px]/[32px] font-medium px-26.25 py-5  text-white my-5">Sign In</button>
+                                <ul class="row justify-start gap-6 items-start">
+                                    <li><a href="#"><img src="./assets/image/icons/Socialmedia/instagram.svg"/></a></li>
+                                    <li><a href="#"><img src="./assets/image/icons/Socialmedia/facebook.svg"/></a></li>
+                                    <li><a href="#"><img src="./assets/image/icons/Socialmedia/youtube.svg"/></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="index.html" class="btn btn-ghost text-xl"><img class="w-25" src="./assets/image/logo.svg"/></a>
+            </div>
+            <div class="navbar-center">
+                <ul class="row gap-10 max-sm:hidden">
+                    <li><a href="index.html" class="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275]">Home</a></li>
+                    <li><a href="shop.html" class="font-Space-Grotesk text-[14px]/[24px] font-bold ">Shop</a></li>
+                    <li><a href="#" class="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275]">Product</a></li>
+                    <li><a href="#" class="font-Space-Grotesk text-[14px]/[24px] font-bold text-[#6C7275]">Contact Us</a></li>
+                </ul>    
+            </div>
+            <div class="navbar-end gap-0.5">
+                <button class="btn btn-ghost btn-circle max-sm:hidden">
+                    <a href="#"><img src="./assets/image/icons/header/search 02.svg"/></a>
+                </button>
+                <button class="btn btn-ghost btn-circle max-sm:hidden">
+                    <a href="#"><img src="./assets/image/icons/header/user-circle.svg"/></a>
+                </button>
+                <button class="row btn btn-ghost p-1">
+                    <a href="#" class="row"><img src="./assets/image/icons/header/shopping bag.svg"/></a>
+                    <p class="rounded-full bg-black text-white w-6 h-6">2</p>
+                </button>
+            </div>
+        </div>
+   </header>
 </body>
 </html>
