@@ -1905,6 +1905,9 @@
   .h-90 {
     height: calc(var(--spacing) * 90);
   }
+  .h-100 {
+    height: calc(var(--spacing) * 100);
+  }
   .h-133 {
     height: calc(var(--spacing) * 133);
   }
@@ -2132,6 +2135,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0px;
+  }
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
@@ -2171,6 +2178,9 @@
   .border-b-\[\#E8ECEF\] {
     border-bottom-color: #E8ECEF;
   }
+  .border-b-\[Neutral\/04\/100\%\] {
+    border-bottom-color: Neutral/04/100%;
+  }
   .border-b-adBorder {
     border-bottom-color: var(--color-adBorder);
   }
@@ -2179,6 +2189,9 @@
   }
   .bg-\[\#F3F5F7\] {
     background-color: #F3F5F7;
+  }
+  .bg-\[url\] {
+    background-color: url;
   }
   .bg-adBackground {
     background-color: var(--color-adBackground);
@@ -2198,11 +2211,47 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\.\)\] {
+    background-image: url(.);
+  }
+  .bg-\[url\(\.\.\/\)\] {
+    background-image: url(../);
+  }
+  .bg-\[url\(\.\.\/image\/\)\] {
+    background-image: url(../image/);
+  }
   .bg-\[url\(\.\.\/image\/LimitedEdition\/Pasteimage\.png\)\] {
     background-image: url(../image/LimitedEdition/Pasteimage.png);
   }
+  .bg-\[url\(\.\.\/image\/S\)\] {
+    background-image: url(../image/S);
+  }
   .bg-\[url\(\.\.\/image\/ShopPage\/Hero\.png\)\] {
     background-image: url(../image/ShopPage/Hero.png);
+  }
+  .bg-\[url\(\.\.\/image\/ShopPage\/Joinbg\.jpg\)\] {
+    background-image: url(../image/ShopPage/Joinbg.jpg);
+  }
+  .bg-\[url\(\.\.\/image\/ShopPage\/Joinbg\.png\)\] {
+    background-image: url(../image/ShopPage/Joinbg.png);
+  }
+  .bg-\[url\(\.\.\/image\/Sop\)\] {
+    background-image: url(../image/Sop);
+  }
+  .bg-\[url\(\.\.\/image\/SopPage\)\] {
+    background-image: url(../image/SopPage);
+  }
+  .bg-\[url\(\.\.\/image\/SopPage\/\)\] {
+    background-image: url(../image/SopPage/);
+  }
+  .bg-\[url\(\.\.\/image\/SopPage\/Joinbg\.\)\] {
+    background-image: url(../image/SopPage/Joinbg.);
+  }
+  .bg-\[url\(\.\.\/image\/SopPage\/Joinbg\.jpg\)\] {
+    background-image: url(../image/SopPage/Joinbg.jpg);
   }
   .bg-cover {
     background-size: cover;
@@ -2661,6 +2710,11 @@
       font-weight: var(--font-weight-medium);
     }
   }
+  .placeholder\:text-black {
+    &::placeholder {
+      color: var(--color-black);
+    }
+  }
   .placeholder\:text-white {
     &::placeholder {
       color: var(--color-white);
@@ -3065,12 +3119,22 @@
       display: none;
     }
   }
+  .sm\:w-100 {
+    @media (width >= 40rem) {
+      width: calc(var(--spacing) * 100);
+    }
+  }
   .md\:row {
     @media (width >= 48rem) {
       display: flex;
       flex-direction: row;
       align-items: center;
       gap: calc(var(--spacing) * 2);
+    }
+  }
+  .md\:w-100 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 100);
     }
   }
   .md\:grid-cols-2 {
