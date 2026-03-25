@@ -1615,6 +1615,12 @@
   .my-12 {
     margin-block: calc(var(--spacing) * 12);
   }
+  .my-50 {
+    margin-block: calc(var(--spacing) * 50);
+  }
+  .my-auto {
+    margin-block: auto;
+  }
   .join-item {
     &:where(*:not(:first-child, :disabled, [disabled], .btn-disabled)) {
       margin-inline-start: calc(var(--border, 1px) * -1);
@@ -1642,6 +1648,9 @@
   .me-auto {
     margin-inline-end: auto;
   }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -1660,8 +1669,17 @@
   .mt-7\.5 {
     margin-top: calc(var(--spacing) * 7.5);
   }
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
+  }
   .mt-12 {
     margin-top: calc(var(--spacing) * 12);
+  }
+  .mt-15 {
+    margin-top: calc(var(--spacing) * 15);
+  }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
   }
   .mt-auto {
     margin-top: auto;
@@ -3077,6 +3095,21 @@
       grid-column: span 1 / span 1;
     }
   }
+  .max-lg\:mt-10 {
+    @media (width < 64rem) {
+      margin-top: calc(var(--spacing) * 10);
+    }
+  }
+  .max-lg\:mt-20 {
+    @media (width < 64rem) {
+      margin-top: calc(var(--spacing) * 20);
+    }
+  }
+  .max-lg\:mt-25 {
+    @media (width < 64rem) {
+      margin-top: calc(var(--spacing) * 25);
+    }
+  }
   .max-lg\:mb-20 {
     @media (width < 64rem) {
       margin-bottom: calc(var(--spacing) * 20);
@@ -3184,6 +3217,11 @@
   .max-md\:order-last {
     @media (width < 48rem) {
       order: 9999;
+    }
+  }
+  .max-md\:mt-20 {
+    @media (width < 48rem) {
+      margin-top: calc(var(--spacing) * 20);
     }
   }
   .max-md\:col {
@@ -3372,9 +3410,19 @@
       padding-inline: calc(var(--spacing) * 1.5);
     }
   }
+  .max-sm\:px-10 {
+    @media (width < 40rem) {
+      padding-inline: calc(var(--spacing) * 10);
+    }
+  }
   .max-sm\:px-18 {
     @media (width < 40rem) {
       padding-inline: calc(var(--spacing) * 18);
+    }
+  }
+  .max-sm\:px-20 {
+    @media (width < 40rem) {
+      padding-inline: calc(var(--spacing) * 20);
     }
   }
   .max-sm\:pb-8 {
