@@ -2029,6 +2029,10 @@
     width: calc(var(--spacing) * 15);
     height: calc(var(--spacing) * 15);
   }
+  .size-100 {
+    width: calc(var(--spacing) * 100);
+    height: calc(var(--spacing) * 100);
+  }
   .h-0 {
     height: calc(var(--spacing) * 0);
   }
@@ -2139,6 +2143,9 @@
   }
   .w-80 {
     width: calc(var(--spacing) * 80);
+  }
+  .w-200 {
+    width: calc(var(--spacing) * 200);
   }
   .w-\[90\%\] {
     width: 90%;
@@ -2887,6 +2894,9 @@
   .underline {
     text-decoration-line: underline;
   }
+  .opacity-0 {
+    opacity: 0%;
+  }
   .opacity-50 {
     opacity: 50%;
   }
@@ -2958,6 +2968,9 @@
   .delay-50 {
     transition-delay: 50ms;
   }
+  .delay-75 {
+    transition-delay: 75ms;
+  }
   .delay-100 {
     transition-delay: 100ms;
   }
@@ -2966,6 +2979,9 @@
   }
   .delay-150 {
     transition-delay: 150ms;
+  }
+  .delay-300 {
+    transition-delay: 300ms;
   }
   .delay-500 {
     transition-delay: 500ms;
@@ -3033,6 +3049,13 @@
       }
     }
   }
+  .group-hover\/item1\:opacity-100 {
+    &:is(:where(.group\/item1):hover *) {
+      @media (hover: hover) {
+        opacity: 100%;
+      }
+    }
+  }
   .group-hover\/item1\:blur-sm {
     &:is(:where(.group\/item1):hover *) {
       @media (hover: hover) {
@@ -3086,6 +3109,13 @@
       }
     }
   }
+  .group-hover\/item2\:opacity-100 {
+    &:is(:where(.group\/item2):hover *) {
+      @media (hover: hover) {
+        opacity: 100%;
+      }
+    }
+  }
   .group-hover\/item2\:blur-xs {
     &:is(:where(.group\/item2):hover *) {
       @media (hover: hover) {
@@ -3098,6 +3128,13 @@
     &:is(:where(.group\/item3):hover *) {
       @media (hover: hover) {
         display: flex;
+      }
+    }
+  }
+  .group-hover\/item3\:opacity-100 {
+    &:is(:where(.group\/item3):hover *) {
+      @media (hover: hover) {
+        opacity: 100%;
       }
     }
   }
@@ -3116,6 +3153,13 @@
       }
     }
   }
+  .group-hover\/item4\:opacity-100 {
+    &:is(:where(.group\/item4):hover *) {
+      @media (hover: hover) {
+        opacity: 100%;
+      }
+    }
+  }
   .group-hover\/item4\:blur-xs {
     &:is(:where(.group\/item4):hover *) {
       @media (hover: hover) {
@@ -3128,6 +3172,13 @@
     &:is(:where(.group\/item5):hover *) {
       @media (hover: hover) {
         display: flex;
+      }
+    }
+  }
+  .group-hover\/item5\:opacity-100 {
+    &:is(:where(.group\/item5):hover *) {
+      @media (hover: hover) {
+        opacity: 100%;
       }
     }
   }
