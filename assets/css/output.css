@@ -2833,6 +2833,12 @@
   .delay-100 {
     transition-delay: 100ms;
   }
+  .delay-125 {
+    transition-delay: 125ms;
+  }
+  .delay-150 {
+    transition-delay: 150ms;
+  }
   .ease-in-out {
     --tw-ease: var(--ease-in-out);
     transition-timing-function: var(--ease-in-out);
@@ -3018,6 +3024,13 @@
         @supports (color: color-mix(in lab, red, red)) {
           background-color: color-mix(in oklab, var(--color-white) 90%, transparent);
         }
+      }
+    }
+  }
+  .hover\:text-black {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-black);
       }
     }
   }
