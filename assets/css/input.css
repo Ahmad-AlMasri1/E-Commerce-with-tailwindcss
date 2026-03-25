@@ -22,6 +22,9 @@
 }
 
 @layer base {
+    body    {
+        
+    }
     a   {
         cursor: pointer;
 
